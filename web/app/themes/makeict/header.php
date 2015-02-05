@@ -40,7 +40,22 @@
           </button>
           <a class="navbar-brand" href="#"><?php echo bloginfo('name'); ?></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse pull-right">
+          <ul class="nav navbar-nav">
+            <li><a href="/events" title="MakeICT Events">Events</a></li>
+            <li><a href="/projects" title="MakeICT Projects">Projects</a></li>
+            <li><a href="/makerspace" title="MakeICT MakerSpace">MakerSpace</a></li>
+            <li><a href="/get-involved" title="Get Involved with MakeICT">Get Involved</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" title="MakeICT Forum">Forum</a></li>
+                <li><a href="#" title="MakeICT Wiki">Wiki</a></li>
+                <li><a href="/blog" title="MakeICT Blog">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="/contact-us" title="Contact MakeICT">Contact Us</a></li>
+          </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
