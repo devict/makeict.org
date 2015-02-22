@@ -9,3 +9,20 @@ Author URI:         http://makeict.org/
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+/* For navbar! */
+body { padding-top: 50px; }
+
+.navbar-brand {
+  text-indent: -9999px;
+  background: url(assets/images/logo.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 5px;
+  width: 260px;
+  height: 65px;
+}
+
+/*.feature {*/
+/*  background: url(*/
+/*}*/

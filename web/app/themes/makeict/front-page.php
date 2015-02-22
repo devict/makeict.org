@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<div class="jumbotron feature">
   <div class="container">
-    <h2>Welcome to the home of Wichita's MakerSpace</h2>
+    <h1>We are Wichita's MakerSpace</h1>
     <p class="lead">Our mission is simple: We innovate, learn, and build community at the intersection of art, technology, science, and culture.</p>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
   </div>
