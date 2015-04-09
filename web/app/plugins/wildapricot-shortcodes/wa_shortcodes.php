@@ -22,6 +22,7 @@ function wildapricot_eventList($atts){
     $waApiClient = WaApiClient::getInstance();
     $waApiClient->initTokenByApiKey(get_option('wildapricot_api_key'));
   }catch(Exception $exc){
+    file_put_contents('/tmp/wp_debug.log', $exc->getMessage());
     return '<h3>Failed to connect to database :(</h3><hr/>';
     $waApiClient = false;
   }
