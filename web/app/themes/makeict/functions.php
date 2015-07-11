@@ -10,6 +10,7 @@ function create_project_posttype() {
         'singular_name' => __( 'Project' )
       ),
       'public' => true,
+      'menu_position' => 5,
       'has_archive' => false,
       'rewrite' => array('slug' => 'projects'),
     )
