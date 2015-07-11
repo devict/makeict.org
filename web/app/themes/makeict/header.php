@@ -45,7 +45,14 @@
             <li><a href="/events" title="MakeICT Events">Events</a></li>
             <li><a href="/projects" title="MakeICT Projects">Projects</a></li>
             <li><a href="/makerspace" title="MakeICT MakerSpace">MakerSpace</a></li>
-            <li><a href="/get-involved" title="Get Involved with MakeICT">Get Involved</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Get Involved <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/membership" title="Membership">Membership</a></li>
+                <li><a href="/teach-a-workshop" title="Teach a Workshop">Teach a Workshop</a></li>
+                <li><a href="/donations" title="Donations">Donations</a></li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community <span class="caret"></span></a>
               <ul class="dropdown-menu">
